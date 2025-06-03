@@ -66,6 +66,43 @@
         </nav> <!--Aqui termina el menu de navegacion-->
 
         <main><!--Aqui comienza el contenido principal -->
+            <h1 class="main__title"> Panel de control</h1>
+            <ul class="main__migas">
+                <li> <a href="#"> </a></li>
+                <li class="divider"></li>
+                <li><a href="#" class="active"> Bienvenido</a> </li>
+            </ul>
+
+            <div class="main__data">
+                <div class="data__content-data">
+                    <h3>Demostracion de consumo de API</h3>
+                    <p>Esta tabla Consume: https://fakestoreapi.com/products para obtener los datos que se van a indexar en la tabla </p>
+
+                    <div class="main__divTable">
+                        <div class="main__div-header">
+                            <button onclick ="openModal()" class="main__nuevo-registro"> Registrar</button>
+                        </div>
+
+                        <table class="main__divTable-Table">
+                            <thead class="main__divTable-table--thead">
+                                <tr>ID</tr>
+                                <tr>Nombre del Producto</tr>
+                                <tr>Precio</tr>
+                                <tr>Categoria</tr>
+                                <tr>ACCIONES</tr>
+                            </thead>
+                            <tbody id="productTableBody">
+
+                            </tbody>
+                         </table>
+                    </div>
+
+
+
+
+                </div>                
+            </div>
+
 
         </main>
 
